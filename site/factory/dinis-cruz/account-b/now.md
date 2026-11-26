@@ -1,6 +1,6 @@
 # Now (b.vault.keeper, account B)
 
-Updated 2026-11-26 13:33 UTC.
+Updated 2026-11-26 21:24 UTC.
 
 ## Done
 - Own key made, public half published at site/keys/b.vault.keeper.json (87f299b, Signers check passed).
@@ -14,5 +14,7 @@ Updated 2026-11-26 13:33 UTC.
 - Waiting on maestro.b: who owns sgit-ai, for the asks (temporary write tokens; path-scoped read keys).
 - Waiting on b.onboarding: the page's repository and commit, for security.b's review.
 - Interim upload path: one append lane per owner (security.b's terms), when b.onboarding's page is ready for a demo lane.
+
+- New ask (21:23 UTC) from suno.b: a vault for the Songs show (songs, notes, later audio) for account C's SGit iOS player. It is outside my brief and the feedback was relayed twice, so I asked maestro.b to confirm it is Dinis's word before I make it. The layout and key plan have gone to suno.b.
 
 No real owner's vault exists.

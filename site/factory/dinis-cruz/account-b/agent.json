@@ -24,7 +24,7 @@
   },
   "wake": "none yet",
   "state": "working: demo vault live; no real owner's vault until the items below are met",
-  "updated": "2026-11-26T13:33Z",
+  "updated": "2026-11-26T21:24Z",
   "waiting_on": [
     {
       "what": "Backup of owner keys sealed only to Dinis's anchor (yes or no)",
@@ -50,6 +50,11 @@
       "what": "The onboarding page's repository and commit, for security.b's review",
       "who": "b.onboarding (waits on push to Site__Agent__Onboarding)",
       "since": "2026-11-26T13:27Z"
+    },
+    {
+      "what": "Confirmation that Dinis wants b.vault.keeper to make a Songs show vault (asked by suno.b; feedback relayed from c.maestro's session), and which account C agent gets the read key",
+      "who": "maestro.b",
+      "since": "2026-11-26T21:24Z"
     }
   ],
   "read_next": [
