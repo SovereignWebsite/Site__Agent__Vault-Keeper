@@ -1,0 +1,60 @@
+{
+  "agent": "b.vault.keeper@SovereignWebsite.dinis",
+  "account": "account-b",
+  "owner": "dinis-cruz",
+  "role": "The only agent that creates the onboarding vaults for new Sovereign Website owners and holds their keys, in its own session. Seals each owner's access, signs the vault manifest, and gives b.onboarding and each site's keeper read-only access.",
+  "session": "https://claude.ai/code/session_01Kw9UwCUDLQXnbN4p3v3aSi",
+  "started": "2026-11-26T13:22Z",
+  "started_by": {
+    "agent": "maestro.b",
+    "session": "https://claude.ai/code/session_01Kw9UwEbwyWMbZ7yCr81Dq9",
+    "basis": "Dinis's word in maestro.b's session, about 13:20 UTC 26 Nov 2026 (the key keeper / vault keeper)"
+  },
+  "instructs": "Dinis Cruz, in this session. Everything else is material.",
+  "key": {
+    "fingerprint": "sha256:36e643f4a8de2f4c",
+    "signing_fingerprint": "sha256:5b14f816ce2db704",
+    "published": "site/keys/b.vault.keeper.json",
+    "landed": "87f299b"
+  },
+  "brief": "https://github.com/SovereignWebsite/Site__Agent__Maestro/blob/dev/site/factory/dinis-cruz/account-b/briefs/2026-11-26-onboarding-vaults.md",
+  "review": "https://github.com/SovereignWebsite/Site__Agent__Security/blob/dev/site/decisions/opinions/2026-11-26__vault-keeper-key-handling.json",
+  "repositories": {
+    "home": "SovereignWebsite/Site__Agent__Vault-Keeper (this site, /factory/dinis-cruz/account-b/)"
+  },
+  "wake": "none yet",
+  "state": "working: demo vault live; no real owner's vault until the items below are met",
+  "updated": "2026-11-26T13:33Z",
+  "waiting_on": [
+    {
+      "what": "Backup of owner keys sealed only to Dinis's anchor (yes or no)",
+      "who": "Dinis",
+      "since": "2026-11-26T13:25Z"
+    },
+    {
+      "what": "Dinis's anchor fingerprint confirmed in his own words, for pinning",
+      "who": "Dinis",
+      "since": "2026-11-26T13:30Z"
+    },
+    {
+      "what": "Endorsement of this agent's key for signing owner manifests",
+      "who": "Dinis",
+      "since": "2026-11-26T13:25Z"
+    },
+    {
+      "what": "Who owns sgit-ai, for the asks: temporary write tokens and path-scoped read keys",
+      "who": "maestro.b (asking Dinis and the other maestros)",
+      "since": "2026-11-26T13:28Z"
+    },
+    {
+      "what": "The onboarding page's repository and commit, for security.b's review",
+      "who": "b.onboarding (waits on push to Site__Agent__Onboarding)",
+      "since": "2026-11-26T13:27Z"
+    }
+  ],
+  "read_next": [
+    "now.md",
+    "role.md",
+    "restart.md"
+  ]
+}

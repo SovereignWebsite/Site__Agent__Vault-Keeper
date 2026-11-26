@@ -1,5 +1,16 @@
 {
   "about": "Each agent of this type and the path to its agent.json. Every agent adds its own entry when it starts.",
   "site": "vault-keeper.agents.sovereignweb.site",
-  "owners": []
+  "owners": [
+    {
+      "owner": "dinis-cruz",
+      "accounts": [
+        {
+          "account": "account-b",
+          "agent": "b.vault.keeper@SovereignWebsite.dinis",
+          "agent_json": "/factory/dinis-cruz/account-b/agent.json"
+        }
+      ]
+    }
+  ]
 }
