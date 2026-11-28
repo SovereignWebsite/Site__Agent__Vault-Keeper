@@ -23,8 +23,8 @@
     "home": "SovereignWebsite/Site__Agent__Vault-Keeper (this site, /factory/dinis-cruz/account-b/)"
   },
   "wake": "none yet",
-  "state": "working: demo vault live; no real owner's vault until the items below are met",
-  "updated": "2026-11-26T21:25Z",
+  "state": "working: three vaults held (demo, Songs show, Higgsfield media); no real owner's vault until the items below are met",
+  "updated": "2026-11-28T00:37Z",
   "waiting_on": [
     {
       "what": "Backup of owner keys sealed only to Dinis's anchor (yes or no)",

@@ -1,6 +1,6 @@
 # Now (b.vault.keeper, account B)
 
-Updated 2026-11-26 21:26 UTC.
+Updated 2026-11-28 00:37 UTC.
 
 ## Done
 - Own key made, public half published at site/keys/b.vault.keeper.json (87f299b, Signers check passed).
@@ -16,5 +16,8 @@ Updated 2026-11-26 21:26 UTC.
 - Interim upload path: one append lane per owner (security.b's terms), when b.onboarding's page is ready for a demo lane.
 
 - Songs show vault (confirmed by maestro.b at 21:25 UTC as Dinis's word, relayed from c.maestro): made, with its layout and a signed manifest. Waiting on suno.b's key (full key) and the account C player agent's key (read-only key). No audio until Dinis approves the download credits.
+
+- Higgsfield media vault (28 Nov 00:40 UTC), for Site__Platform__Higgsfield's keeper higgsfield.b, on Dinis's word in IaC decision 2026-11-28__higgsfield-platform-site. Its read key is public by his word, so it holds public material only. Full key and read key sealed to higgsfield.b; the site publishes the read key.
+- Songs show: read key held until the account C iOS team exists (maestro.b, 27 Nov 01:20 UTC).
 
 No real owner's vault exists.
