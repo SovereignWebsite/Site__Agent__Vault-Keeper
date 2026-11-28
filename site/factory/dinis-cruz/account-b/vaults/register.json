@@ -1,0 +1,54 @@
+{
+  "about": "The register of every vault b.vault.keeper knows of and every public read link, by Dinis's word in record 2026-11-28__media-in-vault (Site__Agent__Decisions 02529d1). No vault key, write key or private read key is ever kept here: a public read key is pointed to where it is published, with a fingerprint so anyone can check it.",
+  "basis": "https://github.com/SovereignWebsite/Site__Agent__Decisions/blob/dev/site/records/2026-11-28__media-in-vault.json",
+  "kept_by": "b.vault.keeper@SovereignWebsite.dinis",
+  "server": "https://dev.send.sgraph.ai",
+  "fingerprint_rule": "read_key_fp = first 16 hex characters of sha256 over '<read key hex>:<vault_id>' (the sgit_public_read_ value without its prefix, with %3A as ':')",
+  "updated": "2026-11-28T01:41Z",
+  "vaults": [
+    {
+      "vault_id": "d085sgrl",
+      "owner_agent": "higgsfield.b@SovereignWebsite.dinis",
+      "holds": "Site__Platform__Higgsfield media: images, short videos and audio from the Higgsfield experiments, plus web copies and media.json",
+      "public": true,
+      "public_read_link": {
+        "published_at": "https://higgsfield.platform.sovereignweb.site/data/vault.json",
+        "read_key_fp": "450f666f125a2d58",
+        "checked": "2026-11-28T01:41Z by b.vault.keeper: the published key matches the key it holds"
+      },
+      "made_public": "2026-11-28 (vault made 00:37 UTC, published by higgsfield.b soon after)",
+      "approved_by": "Dinis Cruz, 28 Nov 00:29:58 UTC (IaC decisions/2026-11-28__higgsfield-platform-site; Site__Agent__Decisions records/2026-11-28__higgsfield-media-and-credits)",
+      "keys": "made by b.vault.keeper; full key sealed to higgsfield.b; b.vault.keeper holds a copy in its session"
+    },
+    {
+      "vault_id": "556k0zqh",
+      "owner_agent": "higgsfield.b@SovereignWebsite.dinis (made in the Higgsfield trial session)",
+      "holds": "The Higgsfield trial portfolio: 24 pieces as an sgit vault app",
+      "public": true,
+      "public_read_link": {
+        "published_at": "https://higgsfield.platform.sovereignweb.site/experiments/2026-11-28-first-evaluation/",
+        "read_key_fp": "8a697ae8e22e9489"
+      },
+      "made_public": "2026-11-28, in the trial session",
+      "approved_by": "Reported as Dinis's word in the trial session (via b.abp and maestro.b); not checked against a record by b.vault.keeper",
+      "keys": "not made or held by b.vault.keeper; write key in the trial container. Where it is kept is Dinis's open decision (records/2026-11-28__higgsfield-media-and-credits, 'not decided')"
+    },
+    {
+      "vault_id": "ef0qj1ju",
+      "owner_agent": "suno.b@SovereignWebsite.dinis (writer, once its key exists); read by account C's SGit iOS player",
+      "holds": "The Songs show: songs, notes, later audio",
+      "public": false,
+      "approved_by": "Dinis's feedback on episode 1, relayed by c.maestro (from-c.md 2026-11-26T20:19Z), confirmed by maestro.b 21:25 UTC",
+      "keys": "held by b.vault.keeper only, until suno.b and the iOS team have keys"
+    },
+    {
+      "vault_id": "hdmjkmi5",
+      "owner_agent": "b.vault.keeper@SovereignWebsite.dinis (demo for b.onboarding)",
+      "holds": "Onboarding demo for a fictional owner (demo-0001)",
+      "public": false,
+      "approved_by": "Brief 2026-11-26-onboarding-vaults ('demo first'), maestro.b 13:33 UTC",
+      "keys": "held by b.vault.keeper; read key sealed to b.onboarding"
+    }
+  ],
+  "owner_vaults": "Vaults for real site owners are listed here by case id only, never by name. None yet."
+}

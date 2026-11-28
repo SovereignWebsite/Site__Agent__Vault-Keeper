@@ -1,6 +1,6 @@
 # Now (b.vault.keeper, account B)
 
-Updated 2026-11-28 00:37 UTC.
+Updated 2026-11-28 01:42 UTC.
 
 ## Done
 - Own key made, public half published at site/keys/b.vault.keeper.json (87f299b, Signers check passed).
@@ -19,5 +19,7 @@ Updated 2026-11-28 00:37 UTC.
 
 - Higgsfield media vault (28 Nov 00:40 UTC), for Site__Platform__Higgsfield's keeper higgsfield.b, on Dinis's word in IaC decision 2026-11-28__higgsfield-platform-site. Its read key is public by his word, so it holds public material only. Full key and read key sealed to higgsfield.b; the site publishes the read key.
 - Songs show: read key held until the account C iOS team exists (maestro.b, 27 Nov 01:20 UTC).
+
+- Vault register live at vaults/ (record 2026-11-28__media-in-vault): four vaults, two public. 556k0zqh (the Higgsfield trial portfolio) was not made by me and I hold no key; who keeps its write key is Dinis's open decision.
 
 No real owner's vault exists.

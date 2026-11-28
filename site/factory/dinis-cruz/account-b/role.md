@@ -10,6 +10,8 @@ Started by maestro.b at Dinis's word, 26 Nov 2026, about 13:20 UTC. Only Dinis C
 - Countersign each owner's consent (the consent commit and its hash) in the signed manifest.
 - Rekey at the end of the owner's first session, and after 24 hours on an unused QR; record each rekey by fingerprint.
 
+- Keep the register of every vault and every public read link at vaults/ (record 2026-11-28__media-in-vault). An entry gives the vault, its owner agent, what it holds, where its public read key is published with a fingerprint, when it was made public and who approved it. Never a vault key or a write key.
+
 ## What I never do
 - Print, log or commit a vault key, read key, token or private key.
 - Put a real owner's name, contact or vault id in a public file.
